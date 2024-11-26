@@ -1,0 +1,208 @@
+<html>
+<head>
+ 
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+<link rel="icon"href="yz.jpeg" type="image/x-icon">
+<title>www.santos.com</title>
+
+
+
+ <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+/* General Reset */
+* {
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+.navbar ul li {
+    margin-left: 20px;
+}
+.navbar ul li a {
+    color: red;
+    text-decoration: none;
+}
+.navbar ul li a:hover {
+    color: yellow;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background: url('yz.jpg') no-repeat center center/cover;
+    color: brown;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.hero .shop-now-btn {
+    padding: 10px 20px;
+    color: red;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.hero .shop-now-btn:hover {
+    background-color: yellow;
+}
+
+/* Products Section */
+.products {
+    padding: 40px 20px;
+    text-align: center;
+}
+.products h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.product-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.product-item {
+    background-color;white:
+
+
+    padding: 10px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+.product-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+.product-item h3 {
+    font-size: 20px;
+    margin: 10px ;
+}
+.product-item p {
+    font-size: 20px;
+    color: white;
+}
+.buy-btn {
+    background-color: pink;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buy-btn:hover {
+    background-color: yellow;
+}
+
+/* Footer */
+footer {
+    padding: 10px;
+    background-color:brown;
+    text-align: center;
+}
+footer .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+footer .social-links li a {
+    color:white;
+    text-decoration: none;
+}
+footer .social-links li a:hover {
+    color: yellow;
+}
+</style>
+
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">FashionHub</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Stylish Clothing for Every Occasion</h1>
+        <p>Discover the latest trends and shop with us.</p>
+        <a href="#products" class="shop-now-btn">Shop Now</a>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products" id="products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="shoes.jpeg" alt="Product 1">
+                <h3>Product Name 1</h3>
+                <p>500</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product-item">
+                <img src="clothes.webp" alt="Product 2">
+                <h3>Product Name 2</h3>
+                <p>300</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product-item">
+                <img src="jeans.jpeg" alt="Product 3">
+                <h3>Product Name 3</h3>
+                <p>1000</p>
+                <button class="buy-btn">Buy Now <br></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>@ 2024 FashionHub. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+
+
+</head>
+
+
+
+</html>
